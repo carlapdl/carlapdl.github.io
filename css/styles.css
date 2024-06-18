@@ -34,8 +34,6 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  /*--bs-primary: #1abc9c;
-  --bs-secondary: #2c3e50;*/
   --bs-primary: #FCE2E0;
   --bs-secondary: #E387B7;
   --bs-success: #198754;
@@ -44,8 +42,6 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  /*--bs-primary-rgb: 26, 188, 156;
-  --bs-secondary-rgb: 44, 62, 80;*/
   --bs-primary-rgb: 252, 226, 224;
   --bs-secondary-rgb: 227, 135, 183;
   --bs-success-rgb: 25, 135, 84;
@@ -10844,6 +10840,17 @@ html {
 @media (min-width: 992px) {
   .page-section .page-section-heading {
     font-size: 3rem;
+    line-height: 2.5rem;
+  }
+}
+
+.page-section .page-sub-heading {
+  font-size: 1.25rem;
+  line-height: 2rem;
+}
+@media (min-width: 992px) {
+  .page-section .page-sub-heading {
+    font-size: 2rem;
     line-height: 2.5rem;
   }
 }
