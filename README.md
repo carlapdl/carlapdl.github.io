@@ -1,3 +1,3 @@
 # carlapdl.github.io
 
-My portfolio landing page
+The styles and design of this landing page is based on the Freelance Bootstrap theme created by Start Bootstrap.
